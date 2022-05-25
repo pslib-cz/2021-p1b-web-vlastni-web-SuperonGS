@@ -115,17 +115,40 @@ ul {
   }
 
  p  {
+    font-size: 1.5rem;
+    margin-bottom: 7%;
     color: var(--text-nav);
     font-family: popins;
+    text-align: justify;
+
  }
 
  h2 {
+    font-size: 2rem;
     border-bottom: 2px solid var(--headings-color);
     text-decoration: underline;
     color: var(--text-h2);
     font-family: Roman;
  }
+ h3 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--headings-color);
+    color: var(--text-h2);
+    font-family: Roman;
+ }
 
+ .galerie{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .image {
+    max-width: 30%;
+    max-height: 30%;
+ }
+ section{
+    text-overflow: none;
+ }
 
 
 
