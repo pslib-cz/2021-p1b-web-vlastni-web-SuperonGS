@@ -14,6 +14,11 @@
     src:url(../fonts/roman.ttf)
 }
 
+@font-face{
+    font-family: popins;
+    src:url(../fonts/popins.ttf)
+}
+
 body    {
     margin: 0;
     padding: 0;
@@ -111,12 +116,16 @@ ul {
 
  p  {
     color: var(--text-nav);
-    font-family: Roman;
+    font-family: popins;
  }
 
  h2 {
-     color: var(--text-h2);
-     font-family: Roman;
+    border-bottom: 2px solid var(--headings-color);
+    text-decoration: underline;
+    color: var(--text-h2);
+    font-family: Roman;
  }
+
+
 
 
