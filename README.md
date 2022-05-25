@@ -29,7 +29,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [X] Stránky používají několik souborů stylů, jeden z nich je [normalize](https://necolas.github.io/normalize.css/)
 * [X] Ke stránkám jsou připojeny externí fonty (např. přes [Google Fonts](https://fonts.google.com/))
 * [X] Stránka obsahuje horizontální nebo vertikální menu s odkazy na celou plochu nabídky
-* [XX] Vzhled stránek je zamýšlen na mobilní telefon pro rozměr od cca 360px do 960px. Content-wrapper má omezení na ``max-width: 960px; margin: 0 auto;``
+* [X] Vzhled stránek je zamýšlen na mobilní telefon pro rozměr od cca 360px do 960px. Content-wrapper má omezení na ``max-width: 960px; margin: 0 auto;``
 * [X] Obrázky mají rozumnou velikost pro mobilní telefon
 * [X] Velikosti písem jsou odvozeny od kořenového elementu
 * [X] Velikosti mezer kolem prvku jsou odvozeny od velikosti písma elementu
