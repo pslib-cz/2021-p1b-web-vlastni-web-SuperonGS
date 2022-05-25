@@ -1,0 +1,76 @@
+:root   {
+    --background: #202020;
+    --navbar: #ffed4a;
+    --main-fg-color: #111111;
+    --accent-color: #E09F3E;
+    --headings-color: #9E2A2B;
+    --menu-bg-color: rgba(158,42,43,.8);
+    --menu-fg-color: #eeeeee;
+    --link-color: #335C67;
+    --medium-gap: 1rem;
+}
+@font-face{
+    font-family: Roman;
+    src:url(../fonts/roman.ttf)
+}
+
+.main-nav   {
+    display: flex;
+    background-color: var(--navbar);
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+
+.nav-link   {
+    display: inline-block;
+}
+
+a   {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 225, 53);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .space{
+      margin-top: 10%;
+      padding: 2.5%;
+      height: 400px;
+      margin-left: 15%;
+      margin-right: 15%;
+      color: rgb(233, 231, 107);
+      background-color: #111;
+  }
+
+ p  {
+    font-family: Roman;
+ }
+
+
