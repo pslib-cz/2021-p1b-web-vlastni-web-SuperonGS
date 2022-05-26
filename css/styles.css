@@ -113,6 +113,14 @@ ul {
     color: var(--text-p);
     background-color: var(--navbar);
   }
+  @media ( max-width: 500px){
+    .space{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        height: 70%;
+    }
+  }
 
  p  {
     font-size: 1.5rem;
