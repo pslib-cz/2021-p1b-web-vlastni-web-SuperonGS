@@ -1,6 +1,6 @@
 :root   {
     --background: #202020;
-    --navbar: rgba(33, 33, 33, 0.902);;
+    --navbar: rgba(33, 33, 33, 0.9);;
     --text-h1: #ffffff;
     --text-nav: #ffffff;
     --text-p: #575757;
@@ -49,7 +49,7 @@ h1  {
     font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
-    background-color: var(--navbar);
+    background-image: linear-gradient(to right, var(--navbar), rgb(33, 33, 33));
 }
 .logo {
     padding: 0.2rem;
