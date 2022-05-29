@@ -151,12 +151,7 @@ ul {
  }
 
  .image {
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 40%;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
  }
- section{
-    text-overflow: none;
- }
-
-
-
