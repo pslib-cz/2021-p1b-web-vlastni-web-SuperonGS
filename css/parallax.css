@@ -21,3 +21,8 @@ body, html {
         background-size: fit-content;
     }
 }
+@media (max-width: 500px){
+  .parallax{
+    height: 130%;
+  }
+}

@@ -35,13 +35,13 @@ h1  {
 
 @media( max-width: 1000px){
     h1{
-        font-size: 5rem;
+        font-size: 7rem;
     }
 }
 
 @media( max-width: 400px){  
     h1{
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -112,8 +112,9 @@ ul {
     margin-right: 15%;
     color: var(--text-p);
     background-color: var(--navbar);
+    
   }
-  @media ( max-width: 500px){
+  @media ( max-width: 700px){
     .space{
         margin-left: 0%;
         margin-right: 0%;
@@ -128,8 +129,13 @@ ul {
     color: var(--text-nav);
     font-family: popins;
     text-align: justify;
-
  }
+
+@media(max-width: 500px){
+    p   {
+        font-size: 1.2rem;
+    }
+}
 
  h2 {
     font-size: 2rem;
@@ -171,6 +177,7 @@ footer{
     width: 100%;
     padding-top: 40px;
     color: #fff;
+    margin-top: 0rem;
 }
 .footer-content{
     display: flex;
@@ -192,19 +199,6 @@ footer{
     font-size: 14px;
     color: #cacdd2;
 }
-.footer-bottom{
-    background: #000;
-    width: 100%;
-    padding: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-.footer-bottom p{
-    float: left;
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
 
 @media (max-width:500px) {
     .footer-menu ul{
@@ -212,4 +206,11 @@ footer{
         margin-top: 10px;
         margin-bottom: 20px;
     }
+}
+
+.footer-menu   {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, var(--navbar), rgb(33, 33, 33));
 }
