@@ -310,13 +310,21 @@ div.gallery-box {
 }   
 .background-yellow{
     background-image: url("../images/yellow_bananas.jpg");
-  }
+    background-size: cover;
+    background-repeat: none;
+}
 .background-red{
     background-image: url("../images/red_bananas.jpg");
+    background-size: cover;
+    background-repeat: none;
   }
 .background-blue{
     background-image: url("../images/blue_bananas.jpg");
+    background-size: cover;
+    background-repeat: none;
   }
 .background-green{
     background-image: url("../images/green_bananas.jpg");
+    background-size: cover;
+    background-repeat: none;
   }
