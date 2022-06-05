@@ -308,23 +308,33 @@ div.gallery-box {
     margin: 2.5%;
     width: 95%;
 }   
+.hlink{
+    font-size: 1rem;
+    color: var(--text-h1);
+    font-family: Roman;
+}
+.hlink::after{
+    content: url(../images/right-arrow.png);
+    padding-left: 1rem;
+}
+
 .background-yellow{
-    background-image: url("../images/yellow_bananas.jpg");
+    background-image: url("../images/blurred/yellow.png");
     background-size: cover;
     background-repeat: none;
 }
 .background-red{
-    background-image: url("../images/red_bananas.jpg");
+    background-image: url("../images/blurred/red.png");
     background-size: cover;
     background-repeat: none;
   }
 .background-blue{
-    background-image: url("../images/blue_bananas.jpg");
+    background-image: url("../images/blurred/blue.png");
     background-size: cover;
     background-repeat: none;
   }
 .background-green{
-    background-image: url("../images/green_bananas.jpg");
+    background-image: url("../images/blurred/green.png");
     background-size: cover;
     background-repeat: none;
   }
